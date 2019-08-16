@@ -54,7 +54,7 @@ If you want to modify an existing Appsody stack, clone the stacks repo and then 
 3. Build the `java-spring-boot2` stack image:
 
     ```bash
-    cd incubator/java-spring-boot2/stack
+    cd incubator/java-spring-boot2/image
     docker build -t <user>/spring-boot2-image -f Dockerfile-stack .
     ```
 
